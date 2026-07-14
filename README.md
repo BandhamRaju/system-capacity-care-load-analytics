@@ -433,9 +433,9 @@ Potential improvements include:
 
 Aspiring Data Scientist | Data Analyst
 
-- LinkedIn: [*(www.linkedin.com/in/raju-bandham)*](https://www.linkedin.com/in/raju-bandham)
-- GitHub: [*(github.com/BandhamRaju)*](https://github.com/BandhamRaju)
-- Email: [*Bandhamraju2@gmail.com*](Bandhamraju2@gmail.com)
+- LinkedIn: [*www.linkedin.com/in/raju-bandham*](https://www.linkedin.com/in/raju-bandham)
+- GitHub: [*github.com/BandhamRaju*](https://github.com/BandhamRaju)
+- Email: [*Bandhamraju2@gmail.com*](https://Bandhamraju2@gmail.com)
 
 ---
 
