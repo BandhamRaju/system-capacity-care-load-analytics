@@ -12,7 +12,7 @@
 ## 🌐 Live Demo Links
 
 🚀 **Live Streamlit Dashboard**  
-https://system-capacity-care-load-analytics.streamlit.app/
+[*Streamlit Link*](https://system-capacity-care-load-analytics.streamlit.app/)
 
 ---
 ## 📌 Overview
