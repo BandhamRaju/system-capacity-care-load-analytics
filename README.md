@@ -427,13 +427,16 @@ Potential improvements include:
 | Version Control | Git & GitHub |
 
 ---
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Bandham Raju**
 
-Aspiring Data Analyst | Data Science Enthusiast
+Aspiring Data Scientist | Data Analyst
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+- LinkedIn: [*(www.linkedin.com/in/raju-bandham)*](https://www.linkedin.com/in/raju-bandham)
+- GitHub: [*(github.com/BandhamRaju)*](https://github.com/BandhamRaju)
+- Email: [*(Bandhamraju2@gmail.com)*](Bandhamraju2@gmail.com)
+
 ---
 
 ## 📜 License
