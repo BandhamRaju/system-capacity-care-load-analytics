@@ -435,7 +435,7 @@ Aspiring Data Scientist | Data Analyst
 
 - LinkedIn: [*(www.linkedin.com/in/raju-bandham)*](https://www.linkedin.com/in/raju-bandham)
 - GitHub: [*(github.com/BandhamRaju)*](https://github.com/BandhamRaju)
-- Email: [*(Bandhamraju2@gmail.com)*](Bandhamraju2@gmail.com)
+- Email: [*( Bandhamraju2@gmail.com ) *](Bandhamraju2@gmail.com)
 
 ---
 
