@@ -680,55 +680,55 @@ def forecasting_page():
     # TAB 2
     # ======================================================
 
-    with tab2:
+    # with tab2:
 
-        st.subheader("Prophet Forecast")
+    #     st.subheader("Prophet Forecast")
 
-        try:
+    #     try:
 
-            prophet = joblib.load("Models/prophet_forecast_model.pkl")
+    #         prophet = joblib.load("Models/prophet_forecast_model.pkl")
 
-            future = prophet.make_future_dataframe(periods=90)
+    #         future = prophet.make_future_dataframe(periods=90)
 
-            forecast = prophet.predict(future)
+    #         forecast = prophet.predict(future)
 
-            fig1 = prophet.plot(forecast)
+    #         fig1 = prophet.plot(forecast)
 
-            st.pyplot(fig1)
+    #         st.pyplot(fig1)
 
-            st.info("""
-                ### Business Interpretation
+    #         st.info("""
+    #             ### Business Interpretation
 
-                The Prophet forecasting model estimates future healthcare demand by learning long-term trends and recurring seasonal patterns from historical data.
+    #             The Prophet forecasting model estimates future healthcare demand by learning long-term trends and recurring seasonal patterns from historical data.
 
-                The black points represent observed historical values, while the blue line represents the model's estimated trend. The shaded region indicates the confidence interval of the prediction.
+    #             The black points represent observed historical values, while the blue line represents the model's estimated trend. The shaded region indicates the confidence interval of the prediction.
 
-                Compared with Linear Regression, Prophet adapts more effectively to changing demand patterns and is better suited for operational forecasting and healthcare capacity planning.
-                """)
+    #             Compared with Linear Regression, Prophet adapts more effectively to changing demand patterns and is better suited for operational forecasting and healthcare capacity planning.
+    #             """)
 
 
-            st.subheader("Trend Components")
+    #         st.subheader("Trend Components")
 
-            fig2 = prophet.plot_components(forecast)
+    #         fig2 = prophet.plot_components(forecast)
 
-            st.pyplot(fig2)
-            st.info("""
-                ### Business Interpretation
+    #         st.pyplot(fig2)
+    #         st.info("""
+    #             ### Business Interpretation
 
-                This decomposition separates the forecast into its underlying components.
+    #             This decomposition separates the forecast into its underlying components.
 
-                • Trend illustrates the long-term increase or decrease in healthcare demand.
+    #             • Trend illustrates the long-term increase or decrease in healthcare demand.
 
-                • Weekly Seasonality identifies systematic demand variation across different days of the week.
+    #             • Weekly Seasonality identifies systematic demand variation across different days of the week.
 
-                • Yearly Seasonality highlights recurring annual demand cycles.
+    #             • Yearly Seasonality highlights recurring annual demand cycles.
 
-                Understanding these components helps decision-makers distinguish long-term structural changes from normal seasonal fluctuations and supports more informed operational planning.
-                """)
+    #             Understanding these components helps decision-makers distinguish long-term structural changes from normal seasonal fluctuations and supports more informed operational planning.
+    #             """)
             
-        except Exception:
+    #     except Exception:
 
-            st.warning("Prophet model not found.")
+    #         st.warning("Prophet model not found.")
 
     # ======================================================
     # TAB 3
